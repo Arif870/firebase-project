@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <ul>
+      <ul
+        style={{
+          display: "flex",
+          textAlign: "center",
+          gap: "10px",
+        }}
+      >
         <Link to="/home">Home</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/about">About</Link>
